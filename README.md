@@ -1,6 +1,6 @@
 # **Bash Scripting Challenge - AWS re/Start Class**
 
-### **Introduction**
+## **Introduction**
 
 Welcome to my Bash scripting challenge, part of the AWS re/Start class! This project demonstrates the intricacies of Bash scripting and how I overcame a unique challenge to enhance my cloud computing skills.
 
@@ -47,10 +47,14 @@ Octal Confusion: Discovered a quirk in Bash where numbers with leading zeros (li
 ### **Solution**
 
 Developed an improved script (script2 in the repository) that addressed these challenges. The key was handling Bash's octal interpretation and ensuring serial file creation.
+
 Key Script Features:
 
-  Octal Handling: Implemented a method to correctly interpret numbers with leading zeros as decimal.
-  Serial File Creation: Ensured the script picks up the numbering correctly and maintains a sequential order.
+Octal Handling: Implemented a method to correctly interpret numbers with leading zeros as decimal.
+Serial File Creation: Ensured the script picks up the numbering correctly and maintains a sequential order.
+
+![image](https://github.com/antznette/Bash-Scripting_challenge/assets/85882006/66df6cb3-c42d-4339-9600-077a3cf5515a)
+
 
 ### **Conclusion**
 

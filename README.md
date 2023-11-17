@@ -53,7 +53,7 @@ Key Script Features:
 Octal Handling: Implemented a method to correctly interpret numbers with leading zeros as decimal.
 Serial File Creation: Ensured the script picks up the numbering correctly and maintains a sequential order.
 
-<img src="![image]https://github.com/antznette/Bash-Scripting_challenge/assets/85882006/66df6cb3-c42d-4339-9600-077a3cf5515a" width="300" height="200">
+<img src="https://github.com/antznette/Bash-Scripting_challenge/assets/85882006/66df6cb3-c42d-4339-9600-077a3cf5515a" width="300" height="200">
 
 
 

@@ -3,21 +3,24 @@
 ### **Introduction**
 
 Welcome to my Bash scripting challenge, part of the AWS re/Start class! This project demonstrates the intricacies of Bash scripting and how I overcame a unique challenge to enhance my cloud computing skills.
-Challenge Overview
+
+
+## **Challenge Overview**
 
 ### **The Task**
 
 Create a batch of 25 sequentially numbered files. The twist? The script must intelligently continue numbering from where the last batch ended, based on the highest number already present in the directory.
 Development Environment
 
-    Connection: Accessed my EC2 instance using PuTTY.
-    Directory Setup: Created a new directory named files and navigated into it.
+Connection: Accessed my EC2 instance using PuTTY.
+Directory Setup: Created a new directory named files and navigated into it.
     
 
 ![image](https://github.com/antznette/Bash-Scripting_challenge/assets/85882006/19b74b63-99cc-4bcb-8e64-dec4f324a887)
 
-    Script Creation: Utilized nano to write the script in a file named new_files.
-    Saved with Control + O and exited to the console using Control + X.
+
+Script Creation: Utilized nano to write the script in a file named new_files.
+Saved with Control + O and exited to the console using Control + X.
 
 ![image](https://github.com/antznette/Bash-Scripting_challenge/assets/85882006/4c95a83d-00d9-406b-9cce-47156d4d62d0)
 
@@ -29,23 +32,25 @@ Modified the script's permissions with chmod to make it executable.
 
 ### **Execution and Challenges**
 
-    Initial Run: On executing the script, the files were created but not listed serially. Used ls -lv for a serial listing.
+Initial Run: On executing the script, the files were created but not listed serially. Used ls -lv for a serial listing.
     
 
 ![image](https://github.com/antznette/Bash-Scripting_challenge/assets/85882006/fb594967-ee0c-4a48-885a-c574f1993d8e)
 
 
+
 ### **Running Scrpt 2**
 
-    Octal Confusion: Discovered a quirk in Bash where numbers with leading zeros (like "008" and "009") are treated as octal, leading to confusion in the script.
+Octal Confusion: Discovered a quirk in Bash where numbers with leading zeros (like "008" and "009") are treated as octal, leading to confusion in the script.
+
 
 ### **Solution**
 
 Developed an improved script (script2 in the repository) that addressed these challenges. The key was handling Bash's octal interpretation and ensuring serial file creation.
 Key Script Features:
 
-    Octal Handling: Implemented a method to correctly interpret numbers with leading zeros as decimal.
-    Serial File Creation: Ensured the script picks up the numbering correctly and maintains a sequential order.
+  Octal Handling: Implemented a method to correctly interpret numbers with leading zeros as decimal.
+  Serial File Creation: Ensured the script picks up the numbering correctly and maintains a sequential order.
 
 ### **Conclusion**
 

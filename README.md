@@ -1,11 +1,11 @@
-#Bash Scripting Challenge - AWS re/Start Class
+#**Bash Scripting Challenge - AWS re/Start Class**
 
-#Introduction
+###**Introduction**
 
 Welcome to my Bash scripting challenge, part of the AWS re/Start class! This project demonstrates the intricacies of Bash scripting and how I overcame a unique challenge to enhance my cloud computing skills.
 Challenge Overview
 
-#The Task 
+###*The Task 
 
 Create a batch of 25 sequentially numbered files. The twist? The script must intelligently continue numbering from where the last batch ended, based on the highest number already present in the directory.
 Development Environment
@@ -14,29 +14,23 @@ Development Environment
     Directory Setup: Created a new directory named files and navigated into it.
     Script Creation: Utilized nano to write the script in a file named new_files.
 
-
-
+![image](https://github.com/antznette/Bash-Scripting_challenge/assets/85882006/19b74b63-99cc-4bcb-8e64-dec4f324a887)
 
     Saved with Control + O and exited to the console using Control + X.
 
-![image](https://github.com/antznette/Bash-Scripting_challenge/assets/85882006/43afb74f-9f1b-4a10-9c2d-df7e274fead2)
-
     
 
-#Permission Adjustment
+###**Permission Adjustment**
 
 Modified the script's permissions with chmod to make it executable.
 
-#Execution and Challenges
+###**Execution and Challenges**
 
     Initial Run: On executing the script, the files were created but not listed serially. Used ls -lv for a serial listing.
-    Unintended File: Noticed an additional file named new_files and removed it using rm.
 
-    bash
 
-    rm new_files
 
-#Running Scrpt 2
+###**Running Scrpt 2**
 
     Octal Confusion: Discovered a quirk in Bash where numbers with leading zeros (like "008" and "009") are treated as octal, leading to confusion in the script.
 

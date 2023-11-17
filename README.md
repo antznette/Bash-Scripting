@@ -19,6 +19,7 @@ Development Environment
 
     Saved with Control + O and exited to the console using Control + X.
 
+![image](https://github.com/antznette/Bash-Scripting_challenge/assets/85882006/43afb74f-9f1b-4a10-9c2d-df7e274fead2)
 
     
 

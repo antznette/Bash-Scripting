@@ -1,6 +1,6 @@
-#**Bash Scripting Challenge - AWS re/Start Class**
+# **Bash Scripting Challenge - AWS re/Start Class**
 
-###**Introduction**
+### **Introduction**
 
 Welcome to my Bash scripting challenge, part of the AWS re/Start class! This project demonstrates the intricacies of Bash scripting and how I overcame a unique challenge to enhance my cloud computing skills.
 Challenge Overview
@@ -12,13 +12,15 @@ Development Environment
 
     Connection: Accessed my EC2 instance using PuTTY.
     Directory Setup: Created a new directory named files and navigated into it.
-    Script Creation: Utilized nano to write the script in a file named new_files.
+    
 
 ![image](https://github.com/antznette/Bash-Scripting_challenge/assets/85882006/19b74b63-99cc-4bcb-8e64-dec4f324a887)
 
+    Script Creation: Utilized nano to write the script in a file named new_files.
     Saved with Control + O and exited to the console using Control + X.
 
-    
+
+ 
 
 ###**Permission Adjustment**
 
@@ -28,6 +30,7 @@ Modified the script's permissions with chmod to make it executable.
 
     Initial Run: On executing the script, the files were created but not listed serially. Used ls -lv for a serial listing.
 
+![image](https://github.com/antznette/Bash-Scripting_challenge/assets/85882006/fb594967-ee0c-4a48-885a-c574f1993d8e)
 
 
 ###**Running Scrpt 2**
